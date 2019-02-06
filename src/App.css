@@ -1,0 +1,22 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  --green : #41C9A9;
+  --blue : #34A7C1;
+  --dark_green: #31977f;
+  --dark_gray: #898F8E;
+  --gray: #AFB9B7;
+  --light_gray:#F0F2F2;
+  --white:#FFFFFF;
+  font-family: 'Nunito', sans-serif;
+
+}
+.App > section {
+  width:100%;
+  height: 100vh;
+}
+
+i{
+  cursor: pointer;
+}
+

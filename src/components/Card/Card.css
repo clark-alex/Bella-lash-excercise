@@ -1,0 +1,60 @@
+.card_wrapper{
+    height: 93%;
+    width: 100%;
+    background: var(--light_gray);
+    display: flex;
+    justify-content: center;
+    color: var(--dark_gray);
+    padding-top: 20px
+}
+.card_wrapper > section{
+    height: 95%;
+    width: 95%;
+    background: var(--white);
+    box-shadow: -2px 2px 8px 3px #adaaaab5;
+    border-radius: 2px;
+}
+.form{
+    padding: 40px 150px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.input-field input::placeholder{
+    font-size: 12px
+}
+.input-field{
+    font-size: 12px;
+    margin: 0
+}
+
+.card_wrapper h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--green);
+    /* margin-bottom: 30px; */
+}
+.card_wrapper h3{
+    font-size: 12px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex_column{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.top_bottom{
+    height: 22%;
+}
+
+.number_input{
+    width: 100px;
+}
